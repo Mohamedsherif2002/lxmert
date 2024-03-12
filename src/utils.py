@@ -15,8 +15,8 @@ from PIL import Image
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from torch._six import string_classes
-import sys
+import torch
+from six import string_classesimport sys
 import csv
 import base64
 import math
